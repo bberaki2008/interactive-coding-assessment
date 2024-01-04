@@ -23,10 +23,12 @@ function setTime() {
 }
 
 let btnEl = document.getElementById("startQuize");
-btnEl.addEventListener("click", function(){
+btnEl.addEventListener("click", function(event){
     paraEl.remove();
     btnEl.remove();
     setTime();
+    // let text = event.target;
+    // console.log(text.textContent);
     for(let i =0; i < quizQuest.length; i++) {
 //  calls fuction to create the question with the choice lists
         getQuestion(i);
