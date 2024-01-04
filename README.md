@@ -16,6 +16,10 @@ To use this Interactive Coding Assessment, you can open it with the most popular
 
 N/A
 
+## Link to the APP
+
+https://github.com/bberaki2008/interactive-coding-assessment
+
 ## Screenshot
 
-![Alt Screenshoot Interactive Coding Assessment](./assets/img/icaScreenshot.png)
+![Alt Screenshoot Interactive Coding Assessment](./assests/img/icaScreenshot.png)
