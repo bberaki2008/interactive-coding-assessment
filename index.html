@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Coding Assessment</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="score" href="#">View high scores</a>
+            <a>Time : <span id="timer"> 0</span></a>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionStartQ">
+            <h1 id="header" class="header-class">Coding Quiz Challenge</h1>
+            <p id="para" class="paraClass">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <a class="btn" id="startQuize">Start Quiz</a>
+        </section>
+        
+        <section id="listChoices" class="listChoices">
+            
+        </section>
+
+        <section id="initial-section" class="sectionFinalSection">
+            <h2 class="header-class">All done!</h1>
+            <p>Your final score is <span id="finalScore">22</span>.</p>
+            <label for="initials">Enter initials:</label>
+            <input id="initials" name="initials" type="text"> <button value="submit" id ="submitInitials" class="btn" >Submit</button>
+        </section>
+
+        <section class="highScore-section">
+            <h2 class="headerScore">High Scores</h1>
+            <p><input type="text" id="initial-score" ></p>
+            <button class="btn" id="goBack">Go back</button><button class="btn" id="ClearhighScores">Clear high scores</button>
+        </section>
+
+    </main>
+
+    <script src="./assests/js/script.js"></script>
+
+</body>
+</html>
+
