@@ -1,0 +1,94 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    /* color: var(--light-blue); */
+    font-size: 1.4rem;
+    /* border-bottom: 4px solid var(--light-blue); */
+    margin: 4px;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sectionStartQ {
+    text-align: center;
+    font-size: 1.3rem;
+    display: block;
+}
+
+#listChoices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+
+.questions {
+    text-align: left;
+}
+
+.btn-choice, .btn{
+    width: 25%;
+    max-width: 30%;
+    padding: 8px;
+    font-size: 1.3rem;
+    background-color:rgba(70, 21, 116);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    text-align: left;
+    margin: 6px;
+    text-decoration: none;
+}
+/* .btn {
+    text-align: center;
+} */
+.btn {
+    width: 25%;
+    padding: 8px;
+    font-size: 1.3rem;
+    background-color: rgb(70, 21, 116);
+    color: white;
+    /* border: 2px solid; */
+    border-radius: 5px;
+    text-align: center;
+}
+.btn:hover, .btn-choice:hover {
+    background-color: rgba(70, 21, 116, 0.6);
+}
+
+h2{
+    align-items: left;
+    align-self: flex-start;
+}
+input, label , p{
+    padding: 6px;
+    font-size :1.3rem;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+}
+
+.sectionFinalSection {
+    display: none;
+}
+
+.highScore-section {
+    display: none;
+
+}
+
+.listChoices {
+    display: block;
+}
